@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../assets/parliament.png",
+        "name": "chili"
+    },
+    {
+        "image": "../assets/ecourts.png",
+        "name": "grapes"
+    },
+    {
+        "image": "../assets/ashok.png",
+        "name": "lemon"
+    },
+    {
+        "image": "../assets/evolution.png",
+        "name": "orange"
+    },
+    {
+        "image": "../assets/lawday.png",
+        "name": "pineapple"
+    },
+    {
+        "image": "../assets/Slogo.png",
+        "name": "strawberry"
+    },
+    {
+        "image": "../assets/consti.png",
+        "name": "tomato"
+    },
+    {
+        "image": "../assets/download.png",
+        "name": "watermelon"
+    },
+    {
+        "image": "../assets/high.jpg",
+        "name": "cherries"
+    }
+]
