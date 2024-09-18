@@ -1,10 +1,29 @@
 body {
-  min-height: 100vh;
   min-width: 100vw; /* Ensures full width */
   background-color: #12181f;
+  height: max-content;
   color: white;
+  overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+  color: #27ae60;
+  transition: all .4s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27ae60;
+  border-radius: 4px;
+  width: 4px;
+  transition: all .4s ease;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+  border-radius: 4px;
+  width: 4px;
+}
 h1 {
   text-align: center;
   font-weight: 700;
@@ -33,7 +52,7 @@ p {
 .grid-container {
   display: grid;
   justify-content: center;
-  grid-gap: 4vw; /* Gaps between cards */
+  grid-gap: 24px; /* Gaps between cards */
   grid-template-columns: repeat(6, 140px);
   grid-template-rows: repeat(3, 200px); /* Adjusted for a 6x3 layout */
 }
